@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: ['http://localhost:5173','https://task101server-production.up.railway.app/','https://todo-app-task-raqibur.netlify.app', 'https://task101-server-l8etbzp0y-raqibur-rahman.vercel.app/'],
+    origin: ['http://localhost:5173','http://localhost:5174','https://task101server-production.up.railway.app/','https://todo-app-task-raqibur.netlify.app', 'https://task101-server-l8etbzp0y-raqibur-rahman.vercel.app/'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 }));
